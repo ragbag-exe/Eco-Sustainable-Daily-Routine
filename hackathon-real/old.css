@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: powderblue;
+}
+
+/* Make h2 headings look clickable */
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #222;
+    transition: color 0.3s ease;
+}
+
+h2:hover {
+    color: #2a7cff;
+}
+
+/* Popup styling */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #feedd9;
+    border: 2px solid #d4bcf5;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content {
+    text-align: center;
+}
+
+#closePopup {
+    margin-top: 15px;
+    padding: 6px 12px;
+    background-color: #8ea6df;
+    color: rgb(177, 249, 224);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button3 {
+    border: 10px solid #F5F5DC;
+    color: #89CFF0;;
+    background-color: #013220;
+    padding: 0px 0px;
+    margin: auto;
+    margin-top: 0px;
+    margin-left:0px;
+    display: block;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+}
